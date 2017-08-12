@@ -1,6 +1,6 @@
 # metrosp-status [![Build Status](https://travis-ci.org/bukinoshita/metrosp-status.svg?branch=master)](https://travis-ci.org/bukinoshita/metrosp-status)
 
-> A real-time API for MetroSP status
+> A real-time API for [MetroSP](http://www.metro.sp.gov.br/) status
 
 
 ## Install

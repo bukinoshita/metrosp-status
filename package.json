@@ -15,7 +15,8 @@
     "transport",
     "cptm",
     "gov",
-    "status"
+    "status",
+    "real-time"
   ],
   "scripts": {
     "test": "xo && ava"
