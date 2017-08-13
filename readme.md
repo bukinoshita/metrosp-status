@@ -41,6 +41,11 @@ metrospStatus().then(lines => console.log(lines))
 returns a `promise`
 
 
+## Related
+
+- [metrosp-status-cli](https://github.com/bukinoshita/metrosp-status-cli) — CLI for this module
+
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
