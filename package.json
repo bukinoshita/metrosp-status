@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A real-time API for MetroSP status",
   "main": "index.js",
-  "repository": "git@github.com:bukinoshita/metrosp-status.git",
+  "repository": "bukinoshita/metrosp-status",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "keywords": [

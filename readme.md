@@ -2,13 +2,11 @@
 
 > A real-time API for [MetroSP](http://www.metro.sp.gov.br/) status
 
-
 ## Install
 
 ```bash
-$ npm install metrosp-status
+$ yarn add metrosp-status
 ```
-
 
 ## Usage
 
@@ -33,18 +31,15 @@ metrospStatus().then(lines => console.log(lines))
 */
 ```
 
-
 ## API
 
 ### metrospStatus()
 
 returns a `promise`
 
-
 ## Related
 
 - [metrosp-status-cli](https://github.com/bukinoshita/metrosp-status-cli) — CLI for this module
-
 
 ## License
 
