@@ -11,20 +11,21 @@ $ yarn add metrosp-status
 ## Usage
 
 ```js
-const metrospStatus = require('metrosp-status')
+import { metroStatus } from 'metrosp-status'
 
-metrospStatus()
+metroStatus()
 ```
 
 ## API
 
-### metrospStatus()
+### metroStatus()
 
 returns a `promise`
 
 ## Related
 
 - [metrosp-status-cli](https://github.com/bukinoshita/metrosp-status-cli) — CLI for this module
+- [cptm-sp-status](https://github.com/bukinoshita/cptm-sp-status) — A real-time API for [CPTM](https://www.cptm.sp.gov.br/) status
 
 ## License
 
