@@ -13,22 +13,7 @@ $ yarn add metrosp-status
 ```js
 const metrospStatus = require('metrosp-status')
 
-metrospStatus().then(lines => console.log(lines))
-/*
-[
-  {
-    id: '1b848518-57ba-4659-93bb-aff76790e352',
-    cor: '-Azul',
-    linha: 'Linha 1-Azul',
-    status: 'Normal',
-    imagem: '/images/sinal-verde-linha1.gif',
-    descricao: '',
-    msgStatus: 'Opera&#231;&#227;o Normal',
-    codigo: '1'
-  },
-  ...
-]
-*/
+metrospStatus()
 ```
 
 ## API

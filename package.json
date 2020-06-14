@@ -2,7 +2,8 @@
   "name": "metrosp-status",
   "version": "0.0.1",
   "description": "A real-time API for MetroSP status",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "bukinoshita/metrosp-status",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
@@ -18,16 +19,27 @@
     "status",
     "real-time"
   ],
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "xo && ava"
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest --config=jest.config.json"
   },
   "dependencies": {
-    "got": "^9.0.0"
+    "axios": "0.19.2"
   },
   "devDependencies": {
-    "ava": "2.4.0",
-    "eslint-config-prettier": "6.7.0",
-    "xo": "0.25.3"
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/jest": "26.0.0",
+    "@types/node": "14.0.13",
+    "jest": "26.0.1",
+    "ts-jest": "26.1.0",
+    "typescript": "3.9.5"
   },
   "xo": {
     "extends": [
